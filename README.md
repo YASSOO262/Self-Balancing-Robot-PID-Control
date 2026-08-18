@@ -37,9 +37,8 @@ The prototype consists of:
 
 The controller continuously measures the robot's tilt angle and adjusts the motor speeds to keep the robot in an upright position.
 
-### Prototype
 
-![Self-Balancing Robot Hardware](hardware_prototype.jpg)
+
 
 **Control flow:**
 
