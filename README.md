@@ -22,3 +22,28 @@ DC Motor Modeling
 Arduino
 IMU/Gyroscope & Accelerometer
 DC Motors and Motor Driver
+**## Hardware Prototype
+
+The physical prototype is a two-wheeled self-balancing robot designed based on the inverted pendulum concept.
+
+The prototype consists of:
+
+* **Two DC geared motors** to drive the left and right wheels.
+* **Wheels and mechanical chassis** to support the robot and its electronic components.
+* **Microcontroller** to process sensor measurements and execute the PID control algorithm.
+* **IMU sensor** to measure the robot's tilt and angular motion.
+* **Motor driver** to control the speed and direction of both motors.
+* **Battery pack** to provide power to the motors and electronic components.
+
+The controller continuously measures the robot's tilt angle and adjusts the motor speeds to keep the robot in an upright position.
+
+### Prototype
+
+![Self-Balancing Robot Hardware](hardware_prototype.jpg)
+
+**Control flow:**
+
+`IMU Sensor → Microcontroller → PID Controller → Motor Driver → DC Motors → Robot Motion → IMU Sensor`
+
+This creates a closed-loop control system that continuously corrects the robot's position and maintains its balance.
+**
